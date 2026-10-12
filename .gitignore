@@ -4,7 +4,7 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 # User-added files
-InitalUI\Help Page\APIKey.txt
+CryptographyTeachingTool\Help Page\APIKey.txt
 
 # User-specific files
 *.rsuser

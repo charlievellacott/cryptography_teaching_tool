@@ -1,0 +1,9 @@
+﻿UPDATE DefinedLessons
+SET [Image] = (
+    SELECT BulkColumn 
+    FROM OPENROWSET(
+        BULK 'C:\Users\User\Downloads\ceaserCipher.png',
+        SINGLE_BLOB
+    ) AS img
+)
+WHERE LessonID = 1;
